@@ -49,8 +49,8 @@ h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+ul{list-style:none; margin:0px auto 0px auto; padding:0px; width:860px; text-align:left;}
+ul li{list-style:none; list-style-type: circle; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
 sup{
@@ -82,18 +82,22 @@ th,td{
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.title1{color: #b2132e; font-size:0.95em; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title2{color: #52739e; font-size:0.95em; text-shadow: 1px 1px 3px #c0c0c0;}
+.year{color: #505050; font-size:0.70em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{width:500px;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:px 0px 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
-td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 10px 0px 0px;}
 td.sponsor img{width: 100%}
+td.sponsors_text {
+    width: 100%; /* Set width equal to the image */
+    text-align: center; /* Center-align the text */
+}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
@@ -115,7 +119,7 @@ table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
 
-footer{font-size:0.875em; margin-top:12em; text-align:center;}
+footer{font-size:0.875em; margin-top:5em; text-align:center;}
 
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 1100px) {
