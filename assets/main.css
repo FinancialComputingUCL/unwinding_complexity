@@ -111,10 +111,13 @@ td.sponsor {
 }
 
 .list-container {
-  column-count: 3;
-  -webkit-column-count: 3; /* For Safari and older versions of Chrome */
-  -moz-column-count: 3; /* For Firefox */
+  column-count: 2;
+  -webkit-column-count: 2; /* For Safari and older versions of Chrome */
+  -moz-column-count: 2; /* For Firefox */
   margin-left: 70px;
+  column-gap: 10px; /* Adjust the value as per your preference */
+  -webkit-column-gap: 10px; /* For Safari and older versions of Chrome */
+  -moz-column-gap: 10px; /* For Firefox */
 }
 
 /* The Table on the Program Page */
