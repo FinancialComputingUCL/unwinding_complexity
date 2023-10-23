@@ -111,12 +111,12 @@ td.sponsor {
 }
 
 .list-container {
-  column-count: 2;
-  -webkit-column-count: 2; /* For Safari and older versions of Chrome */
+  column-count: 3;
+  -webkit-column-count: 3; /* For Safari and older versions of Chrome */
   -moz-column-count: 2; /* For Firefox */
   margin-left: 70px;
-  column-gap: 10px; /* Adjust the value as per your preference */
-  -webkit-column-gap: 10px; /* For Safari and older versions of Chrome */
+  column-gap: 5px; /* Adjust the value as per your preference */
+  -webkit-column-gap: 5px; /* For Safari and older versions of Chrome */
   -moz-column-gap: 10px; /* For Firefox */
 }
 
